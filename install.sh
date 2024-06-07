@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "[+] Cloning the source"
-git clone https://github.com/hixaa/eemsV4
-cd eemsV4
+git clone https://github.com/hixaa/eemsEXE
+cd eemsEXE
 
 echo "[+] Starting Debloat"
 
@@ -30,7 +30,7 @@ sudo apt install libgles-dev libegl-dev -y
 sudo ln -s /usr/lib/arm-linux-gnueabihf/libGLESv2.so /usr/lib/libbrcmGLESv2.so
 sudo ln -s /usr/lib/arm-linux-gnueabihf/libEGL.so /usr/lib/libbrcmEGL.so
 sudo ldconfig
-sudo apt install ./tools/anydesk_6.3.0-1_armhf.deb
+sudo apt install ./anydesk_6.3.0-1_armhf.deb
 
 echo "[+] Enable VNC"
 sudo systemctl enable vncserver-x11-serviced.service
@@ -43,7 +43,7 @@ pip3 install requests
 pip3 install chardet
 sudo cp cleanup.sh /
 sudo chmod +x /cleanup.sh
-sudo mv xaees/xaees.service /lib/systemd/system/
+sudo mv xaees.service /lib/systemd/system/
 sudo cp -r xaees/* /
 
 echo "[+] Making our service onboot"
