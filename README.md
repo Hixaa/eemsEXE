@@ -10,7 +10,7 @@ $ mkdocs serve
 Installation
 For installing just run the following command
 
-sudo curl -fsSL https://raw.githubusercontent.com/Hixaa/eemsV4/main/install.sh | bash
+sudo curl -fsSL [https://raw.githubusercontent.com/Hixaa/eemsEXE/main/install.sh] | bash
 For more details on setting up the documentation refer here
 
 Once the documentation is up and running you can visit the Getting Started page.
