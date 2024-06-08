@@ -43,10 +43,10 @@ pip3 install requests
 pip3 install chardet
 #sudo cp cleanup.sh /
 #sudo chmod +x /cleanup.sh
-sudo mv xaees/RakshaIOT /
+sudo mv RakshaIOT /
 sudo chmod 777 /RakshaIOT
-sudo mv xaees/xaees.service /lib/systemd/system/
-sudo cp -r xaees/* /
+sudo mv xaees.service /lib/systemd/system/
+#sudo cp -r xaees/* /
 
 echo "[+] Making our service onboot"
 sudo systemctl enable xaees
