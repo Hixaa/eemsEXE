@@ -41,8 +41,8 @@ sudo apt install vim -y
 pip3 install urllib3
 pip3 install requests
 pip3 install chardet
-sudo cp cleanup.sh /
-sudo chmod +x /cleanup.sh
+#sudo cp cleanup.sh /
+#sudo chmod +x /cleanup.sh
 sudo mv xaees/RakshaIOT /
 sudo chmod 777 /RakshaIOT
 sudo mv xaees/xaees.service /lib/systemd/system/
