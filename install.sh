@@ -45,6 +45,7 @@ pip3 install chardet
 #sudo chmod +x /cleanup.sh
 sudo mv RakshaIOT /
 sudo chmod 777 /RakshaIOT
+sudo mv config_xaees.ini /
 sudo mv xaees.service /lib/systemd/system/
 #sudo cp -r xaees/* /
 
