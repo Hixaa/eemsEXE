@@ -10,6 +10,7 @@ sudo rm -f config_xaees.ini cleanup.sh xaees_main.py
 
 echo "[+] Deleting xaees service file"
 sudo rm -f lib/systemd/system/xaees.service
+cd ~
 
 echo "[+] Cloning the source"
 git clone https://github.com/hixaa/eemsEXE
