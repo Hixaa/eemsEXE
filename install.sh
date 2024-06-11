@@ -61,6 +61,8 @@ sudo mv config_xaees.ini /
 sudo mv xaees.service /lib/systemd/system/
 #sudo cp -r xaees/* /
 
+sudo mkdir /data_storage
+
 echo "[+] Making our service onboot"
 sudo systemctl enable xaees
 #sudo systemctl start xaees
